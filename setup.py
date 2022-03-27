@@ -31,7 +31,8 @@
 
 try:
     import numpy
-    from numpy.distutils.core import setup, Extension, Command
+    from numpy.distutils.core import setup, Extension
+    from distutils.core import Command
 except ImportError:
     print('The numpy package is required to install RPMDrate.')
     quit()

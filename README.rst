@@ -7,7 +7,7 @@ About RPMDrate
 
 RPMDrate is a free, open-source software package for using ring polymer
 molecular dynamics simulations to compute properties of chemical systems,
-including, but not limited to, chemical reaction rates.
+including, but not limited to, chemical reaction rates. This is a fork to test some new codes.
 
 License
 =======
@@ -51,6 +51,8 @@ and run RPMD:
 
 * `NumPy <http://numpy.scipy.org/>`_ (version 1.5.0 or later is recommended)
 
+* `Quantities <http://https://pypi.org/project/quantities/>`_
+
 * `FFTW <http://www.fftw.org/>`_ (version 3.3 or later is recommended)
 
 * A standard Fortran 90/95 compiler (e.g. ``gfortran``, ``g95``, ``ifort``, etc.)
@@ -64,7 +66,7 @@ Getting RPMDrate
 The best way to obtain a copy of the repository is to clone it using `git
 <http://git-scm.com/>`_::
 
-    $ git clone git://github.com/GreenGroup/RPMDrate.git
+    $ git clone git://github.com/savannahcarnahan/RPMDrate.git
 
 This enables you to easy update your local clone with the latest changes. If
 you intend to contribute, you should fork the project on GitHub first, and

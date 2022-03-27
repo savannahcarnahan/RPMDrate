@@ -65,7 +65,7 @@ class LinearInterpolator(object):
         # Binary search for insert position
         imin = 0; imax = self.N
         while imax >= imin:
-            imid = (imin + imax) / 2
+            imid = (imin + imax)//2
             if xdata[imid] < x:
                 imin = imid + 1
             elif xdata[imid] > x:
@@ -117,7 +117,7 @@ class SemiLogXInterpolator(object):
         # Binary search for insert position
         imin = 0; imax = self.N
         while imax >= imin:
-            imid = (imin + imax) / 2
+            imid = (imin + imax) // 2
             if xdata[imid] < x:
                 imin = imid + 1
             elif xdata[imid] > x:
@@ -167,7 +167,7 @@ class SemiLogYInterpolator(object):
         # Binary search for insert position
         imin = 0; imax = self.N
         while imax >= imin:
-            imid = (imin + imax) / 2
+            imid = (imin + imax) // 2
             if xdata[imid] < x:
                 imin = imid + 1
             elif xdata[imid] > x:
@@ -219,7 +219,7 @@ class LogLogInterpolator(object):
         # Binary search for insert position
         imin = 0; imax = self.N
         while imax >= imin:
-            imid = (imin + imax) / 2
+            imid = (imin + imax) // 2
             if xdata[imid] < x:
                 imin = imid + 1
             elif xdata[imid] > x:
